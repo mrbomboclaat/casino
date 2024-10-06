@@ -1,0 +1,64 @@
+/* styles.css */
+
+/* Hero Section */
+header#home {
+    position: relative;
+    height: 100vh;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  }
+  
+  header#home .btn {
+    padding: 0.75rem 1.5rem;
+  }
+  
+  /* Games Section */
+  #games .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Promotions Section */
+  #promotions .card {
+    border: none;
+    background-color: #f8f9fa;
+  }
+  
+  /* Testimonials Section */
+  section.py-5 .card {
+    border: none;
+    background-color: #f1f1f1;
+  }
+  
+  /* Signup Section */
+  #signup form .form-control {
+    background-color: #333;
+    border: none;
+    color: #fff;
+  }
+  
+  #signup form .form-control::placeholder {
+    color: #bbb;
+  }
+  
+  #signup form .btn {
+    background-color: #ffc107;
+    border: none;
+  }
+  
+  #signup form .btn:hover {
+    background-color: #e0a800;
+  }
+  
+  /* Footer */
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    header#home {
+      background-position: center;
+    }
+  }
+  

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Casino Name</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Casino Royale</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#games">Games</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#promotions">Promotions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-warning ms-3" href="#signup">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="vh-100 d-flex align-items-center" 
+          style="background: url('assets/images/casino-bg.jpg') no-repeat center center/cover;">
+    <div class="container text-center text-white">
+      <h1 class="display-4 fw-bold">Welcome to Casino Royale</h1>
+      <p class="lead mb-4">Experience the thrill of the game</p>
+      <a href="#signup" class="btn btn-lg btn-warning">Join Now</a>
+    </div>
+  </header>
+
+  <!-- Games Section -->
+  <section id="games" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Our Games</h2>
+      <div class="row">
+        <!-- Game Card 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="assets/images/game1.jpg" class="card-img-top" alt="Game 1">
+            <div class="card-body">
+              <h5 class="card-title">Blackjack</h5>
+              <p class="card-text">Beat the dealer in this classic card game.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Game Card 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="assets/images/game2.jpg" class="card-img-top" alt="Game 2">
+            <div class="card-body">
+              <h5 class="card-title">Roulette</h5>
+              <p class="card-text">Spin the wheel and try your luck.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Game Card 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="assets/images/game3.jpg" class="card-img-top" alt="Game 3">
+            <div class="card-body">
+              <h5 class="card-title">Slots</h5>
+              <p class="card-text">Enjoy a variety of slot machines with exciting themes.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Add more game cards as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Promotions Section -->
+  <section id="promotions" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Exclusive Promotions</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Welcome Bonus</h5>
+              <p class="card-text">Get a 100% match bonus on your first deposit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Weekly Cashback</h5>
+              <p class="card-text">Receive up to 10% cashback on your losses every week.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Add more promotions as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">What Our Players Say</h2>
+      <div class="row justify-content-center">
+        <!-- Testimonial 1 -->
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">"Casino Royale offers the best gaming experience I've ever had!"</p>
+              <h5 class="card-title">- John Doe</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Testimonial 2 -->
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">"The promotions and bonuses are fantastic. Highly recommend!"</p>
+              <h5 class="card-title">- Jane Smith</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Add more testimonials as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Signup Section -->
+  <section id="signup" class="bg-dark text-white py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Join Casino Royale Today</h2>
+      <form class="row justify-content-center">
+        <div class="col-md-6 mb-3">
+          <input type="text" class="form-control" placeholder="Full Name" required>
+        </div>
+        <div class="col-md-6 mb-3">
+          <input type="email" class="form-control" placeholder="Email Address" required>
+        </div>
+        <div class="col-md-6 mb-3">
+          <input type="password" class="form-control" placeholder="Password" required>
+        </div>
+        <div class="col-md-6 mb-3">
+          <input type="password" class="form-control" placeholder="Confirm Password" required>
+        </div>
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-warning btn-lg">Sign Up Now</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <!-- Contact Info -->
+        <div class="col-md-4 mb-3">
+          <h5>Casino Royale</h5>
+          <p>1234 Gambling Ave.<br> Las Vegas, NV 89109</p>
+          <p>Email: support@casinoroyale.com</p>
+        </div>
+        <!-- Quick Links -->
+        <div class="col-md-4 mb-3">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#home" class="text-white">Home</a></li>
+            <li><a href="#games" class="text-white">Games</a></li>
+            <li><a href="#promotions" class="text-white">Promotions</a></li>
+            <li><a href="#contact" class="text-white">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Social Media -->
+        <div class="col-md-4 mb-3">
+          <h5>Follow Us</h5>
+          <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+      <hr class="bg-white">
+      <p class="text-center mb-0">&copy; 2024 Casino Royale. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies (Popper.js) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Optional: Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</body>
+</html>
