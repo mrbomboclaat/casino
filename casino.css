@@ -1,10 +1,17 @@
 /* styles.css */
 
+
 /* Hero Section */
+body{
+    background-image: url('https://i.pinimg.com/736x/b1/26/81/b1268193c5ce077b131586efa3bc7784.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
 header#home {
     position: relative;
     height: 100vh;
-    color: white;
+    color: ;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
   }
   
@@ -27,7 +34,7 @@ header#home {
   /* Testimonials Section */
   section.py-5 .card {
     border: none;
-    background-color: #f1f1f1;
+    background-color: #f0ad4e;
   }
   
   /* Signup Section */
@@ -54,6 +61,7 @@ header#home {
   footer a:hover {
     text-decoration: underline;
   }
+  
   
   /* Responsive Adjustments */
   @media (max-width: 768px) {
